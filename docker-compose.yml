@@ -1,0 +1,11 @@
+version: '2'
+services:
+  maze-plot:
+    build: .
+    container_name: 'maze-plot'
+    tty: true
+    volumes:
+      - './src:/data/src'
+      - './work:/data/work'
+      - './config:/data/config'
+    working_dir: '/data/work'
