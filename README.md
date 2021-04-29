@@ -19,5 +19,10 @@ docker-compose run --entrypoint "python3 /data/src/main.py" maze-plot
 
 work フォルダ内に生成された迷路・学習前・学習後の画像を出力
 
+## 学習前
+
 ![学習前](/sample/input.gif)
+
+## 学習後
+
 ![学習後](/sample/result.gif)
